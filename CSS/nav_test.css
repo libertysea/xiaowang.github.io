@@ -1,0 +1,107 @@
+#page-header {
+    position: relative;
+    width: 100%
+}
+
+#page-header.not-top-img {
+    margin-bottom: 5px;
+    height: 60px;
+    background: 0
+}
+
+.back-home-button .back-menu-list-group {
+    display: flex;
+    flex-direction: column
+}
+
+.back-home-button .back-menu-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 340px;
+    justify-content: space-between
+}
+.back-home-button .back-menu-list-groups .back-menu-list-group:last-child .back-menu-list {
+    margin: 0 0 8px
+}
+
+#page-header.post-bg.nav-fixed #nav {
+    backdrop-filter: saturate(180%) blur(20px);
+    background: var(--anzhiyu-maskbgdeep);
+    border-bottom: var(--style-border)
+}
+
+#nav {
+    position: fixed;
+    -webkit-transition: border 0s, all 0s;
+    -moz-transition: border 0s, all 0s;
+    -o-transition: border 0s, all 0s;
+    -ms-transition: border 0s, all 0s;
+    transition: border 0s, all 0s;
+    top: 0;
+    z-index: 90;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 calc((100% - 1370px)/ 2);
+    width: 100%;
+    height: 60px;
+    font-size: 1.3em;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -o-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    border-bottom: var(--style-border);
+    background: var(--anzhiyu-maskbgdeep);
+    backdrop-filter: saturate(180%) blur(20px)
+}
+
+@media screen and (max-width:768px) {
+    #nav {
+        padding: 0 16px
+    }
+}
+
+
+
+a {
+    font-family: ZhuZiAYuanJWD
+}
+
+div#menus {
+    font-family: ZhuZiAYuanJWD
+}
+
+h1#site-title {
+    font-family: ZhuZiAYuanJWD;
+    font-size: 3em !important
+}
+
+a.article-title,
+a.blog-slider__title,
+a.categoryBar-list-link,
+h1.post-title {
+    font-family: ZhuZiAYuanJWD
+}
+
+
+
+
+
+
+
+

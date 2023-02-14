@@ -1,0 +1,206 @@
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+hr:before {
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Font Awesome 6 Pro';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased
+}
+body {
+    position: relative;
+    min-height: 100%;
+    background: var(--global-bg);
+    color: var(--font-color);
+    font-size: var(--global-font-size);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    line-height: 2;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+#aside-content .author-info__description,
+#aside-content .author-info__name,
+#site-name,
+#site-subtitle,
+#site-title {
+    font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+}
+
+
+#article-container code,
+#article-container pre {
+    font-size: var(--global-font-size);
+    font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif !important
+}
+
+
+.error404 #error-wrap .error-content .error-info {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-box;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    align-content: center;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    text-align: center;
+    font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+}
+
+#article-container kbd {
+    margin: 0 3px;
+    padding: 3px 5px;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), 0 2px 1px 0 rgba(255, 255, 255, .6) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .25), 0 2px 1px 0 rgba(255, 255, 255, .6) inset;
+    color: #34495e;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .9em;
+    font-family: Monaco, 'Ubuntu Mono', monospace;
+    line-height: 1em
+}
+
+#article-container kbd {
+    margin: 0 3px;
+    padding: 3px 5px;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), 0 2px 1px 0 rgba(255, 255, 255, .6) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .25), 0 2px 1px 0 rgba(255, 255, 255, .6) inset;
+    color: #34495e;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .9em;
+    font-family: Monaco, 'Ubuntu Mono', monospace;
+    line-height: 1em
+}
+
+
+#error-wrap .error-content .error-info {
+    box-flex: 1;
+    flex: 1;
+    padding: .5rem;
+    text-align: center;
+    font-size: 14px;
+    font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+}
+.aboutsiteTips h2 {
+    margin-right: auto;
+    font-size: 36px;
+    font-family: Helvetica;
+    line-height: 1.06;
+    letter-spacing: -.02em;
+    color: var(--font-color);
+    margin-top: 0
+}
+
+a {
+    font-family: ZhuZiAYuanJWD
+}
+
+div#menus {
+    font-family: ZhuZiAYuanJWD
+}
+
+h1#site-title {
+    font-family: ZhuZiAYuanJWD;
+    font-size: 3em !important
+}
+
+a.article-title,
+a.blog-slider__title,
+a.categoryBar-list-link,
+h1.post-title {
+    font-family: ZhuZiAYuanJWD
+}
+
+.iconfont {
+    font-family: iconfont !important;
+    font-size: 3em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+a.categoryButton {
+    height: 100%;
+    width: 100%;
+    background: var(--anzhiyu-card-bg);
+    border-radius: 12px;
+    display: inline-block;
+    text-align: left;
+    line-height: 4em;
+    font-weight: 700;
+    font-size: .9rem;
+    color: var(--anzhiyu-white);
+    transition: all .8s cubic-bezier(.39, .575, .565, 1);
+    transform: scale(1);
+    overflow: hidden;
+    font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei
+}
+
+#article-container .headerlink::before {
+    content: "\f0c1";
+    font-family: "Font Awesome 6 Pro"
+}
+
+
+.reward #people {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    font-size: 12px;
+    font-family: "é›…é»‘";
+    color: #aaa
+}
+
+
+#tag #tag-page-tags a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: .9em
+}
+#tag #tag-page-tags a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif
+}
+.tagsPageCount {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif
+}
